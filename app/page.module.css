@@ -1,0 +1,13 @@
+.outerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.menuTypeDiv {
+    width: 100%;
+    margin-bottom: 10rem;
+}

@@ -1,0 +1,24 @@
+.outerDiv {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Adamina', serif;
+    width: inherit;
+}
+
+.outerDiv>p,
+.nameAndPrice>p {
+    color: rgba(165, 165, 165, 0.6);
+    font-size: 1rem;
+}
+
+.nameAndPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -0.2rem;
+}
+
+.nameAndPrice>h2 {
+    font-size: 1.5rem;
+}
