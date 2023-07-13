@@ -31,6 +31,21 @@ export default function Home() {
         referrerpolicy='no-referrer-when-downgrade'
       />
 
+      <div className={styles.aboutUsDiv}>
+        <h1>Orari Apertura</h1>
+        <div className={styles.orariAperturaDiv}>
+          <p>Lun - Dom</p>
+          <p>18:00 - 23:00</p>
+        </div>
+        <div className={styles.indirizzoETelefonoDiv}>
+          <h2>P.za Santa Chiara, 51,</h2>
+          <h2>66054 Vasto CH,</h2>
+          <h3>(+39) 339 443 1038</h3>
+        </div>
+      </div>
+
+
+
     </div>
   )
 }
