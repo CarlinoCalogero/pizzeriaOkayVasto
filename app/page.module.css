@@ -4,10 +4,78 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .menuTypeDiv {
     width: 100%;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
+    /*top right bottom left*/
+    padding: 0 15vw 0 15vw;
+}
+
+.homeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: var(--space-between-sections);
+
+    min-height: 100vh;
+    background-image: url("../content/cover.jpg");
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+    /* Color overlay */
+    box-shadow: inset 0 0 0 2000px #070415c9;
+    background-attachment: fixed;
+}
+
+.homeDiv>h1 {
+    font-weight: 800;
+    font-family: 'Abril Fatface', display;
+    font-size: 7rem;
+    margin-top: -2.5rem;
+}
+
+.homeDiv>h2 {
+    color: var(--darker-yellow-color);
+    font-family: 'Abril Fatface', display;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.homeDiv>h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+.homeDivButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.homeDivButtonDiv>button {
+    border-radius: 1.5rem;
+    background-color: var(--darker-yellow-color);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-align: center;
+    border: 2px solid var(--darker-yellow-color);
+    transition-duration: 0.2s;
+}
+
+.homeDivButtonDiv>button:hover {
+    background-color: transparent;
+}
+
+.googleMap {
+    width: 50rem;
+    height: 50rem;
+    border: 0;
 }
