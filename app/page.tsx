@@ -32,7 +32,7 @@ export default function Home() {
       />
 
       <div className={styles.aboutUsDiv}>
-        <h1>Orari Apertura</h1>
+        <h1>Orari di Apertura</h1>
         <div className={styles.orariAperturaDiv}>
           <p>Lun - Dom</p>
           <p>18:00 - 23:00</p>

@@ -76,9 +76,8 @@
 
 .googleMap {
     margin-top: var(--space-between-sections);
-    margin-bottom: var(--space-between-sections);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     border: 0;
 }
 
@@ -87,7 +86,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: var(--space-between-sections);
+    min-height: 100vh;
 }
 
 .aboutUsDiv>h1 {
