@@ -19,7 +19,7 @@ export function SingleMenuEntry({ categoryEntry }: SingleMenuEntryProps) {
             <p>{categoryEntry.description}</p>
 
             {categoryEntry.subEntries &&
-                categoryEntry.subEntries.map(categorySubEntry => (<div className={styles.singleMenuSubEntryDiv}><SingleMenuSubEntry categorySubEntry={categorySubEntry} /></div>))
+                categoryEntry.subEntries.map(categorySubEntry => (<div key={categorySubEntry.name} className={styles.singleMenuSubEntryDiv}><SingleMenuSubEntry categorySubEntry={categorySubEntry} /></div>))
             }
 
 

@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       <span id="menuSection"></span>
-      {menu.map(menuEntry => <div className={styles.menuTypeDiv}> <MenuTypeSnippet menuEntry={menuEntry} /></div>)}
+      {menu.map(menuEntry => <div key={menuEntry.categoryName} className={styles.menuTypeDiv}> <MenuTypeSnippet menuEntry={menuEntry} /></div>)}
 
       <Iframe
         id="aboutUsSection"

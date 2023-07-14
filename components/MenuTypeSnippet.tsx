@@ -21,7 +21,7 @@ export function MenuTypeSnippet({ menuEntry }: MenuTypeSnippetProps) {
 
             {
                 menuEntry.entries &&
-                menuEntry.entries.map(categoryEntry => <div className={styles.singleMenuEntry}><SingleMenuEntry categoryEntry={categoryEntry} /></div>)
+                menuEntry.entries.map(categoryEntry => <div key={categoryEntry.name} className={styles.singleMenuEntry}><SingleMenuEntry categoryEntry={categoryEntry} /></div>)
             }
 
 
