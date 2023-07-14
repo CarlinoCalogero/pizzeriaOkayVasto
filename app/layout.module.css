@@ -201,8 +201,8 @@
 
   .headerInsideDiv span {
     display: block;
-    width: 33px;
-    height: 4px;
+    width: 1.5rem;
+    height: 0.15rem;
     margin-bottom: 5px;
     position: relative;
 
@@ -230,8 +230,7 @@
  */
   .hamburgerMenuCheckBox:checked~.spanElementOne {
     opacity: 1;
-    transform: rotate(45deg) translate(0px, 0px);
-    background: #232323;
+    transform: rotate(45deg) translate(-2px, 2px);
   }
 
   /*
@@ -248,7 +247,6 @@
   .hamburgerMenuCheckBox:checked~.spanElementThree {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -10px);
-    background: #232323;
   }
 
   /*
@@ -263,8 +261,9 @@
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
+    gap: 0;
 
-    background: #ededed;
+    background: #262431f0;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -276,8 +275,8 @@
   }
 
   .menu li {
-    padding: 10px 0;
-    font-size: 22px;
+    padding: 0.25rem 0 0.25rem 0;
+    font-size: 0.75rem;
   }
 
   /*

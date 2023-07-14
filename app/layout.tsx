@@ -5,6 +5,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import logo from '@/content/logo.png'
 import { FaInstagram, FaFacebook } from 'react-icons/fa'
+import Link from 'next/link'
+import ScrollLink from '@/components/ScrollLink'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,10 +42,10 @@ export default function RootLayout({
             />
 
             <ul className={styles.menu}>
-              <li><a>Home</a></li>
-              <li><a>Menu</a></li>
-              <li><a>About Us</a></li>
-              <li><a>Contact Us</a></li>
+              <li><ScrollLink href='#homeSection'>Home</ScrollLink></li>
+              <li><ScrollLink href='#menuSection'>Menu</ScrollLink></li>
+              <li><ScrollLink href='#aboutUsSection'>About Us</ScrollLink></li>
+              <li><ScrollLink href='#contactUsSection'>Contact Us</ScrollLink></li>
             </ul>
 
             <button>Chiama Ora</button>
