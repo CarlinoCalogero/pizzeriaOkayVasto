@@ -4,6 +4,7 @@
 
 :root {
   --yellow-color: #E0B477;
+  --dark-yellow-color: #db860f;
   --darker-yellow-color: #db9423;
   --space-between-sections: 10rem;
 }
@@ -11,6 +12,10 @@
 body {
   background: #070415;
   color: white;
+}
+
+#menuSection {
+  margin-bottom: var(--space-between-sections);
 }
 
 /* Responsive layout */

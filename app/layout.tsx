@@ -34,12 +34,15 @@ export default function RootLayout({
             <span className={styles.spanElementTwo}></span>
             <span className={styles.spanElementThree}></span>
 
-            <Image
-              src={logo}
-              className={styles.logoImage}
-              alt="Logo"
-              loading='lazy'
-            />
+            <ScrollLink href='#homeSection'>
+              <Image
+                src={logo}
+                className={styles.logoImage}
+                alt="Logo"
+                loading='lazy'
+              />
+            </ScrollLink>
+
 
             <ul className={styles.menu}>
               <li><ScrollLink href='#homeSection'>Home</ScrollLink></li>
@@ -48,7 +51,7 @@ export default function RootLayout({
               <li><ScrollLink href='#contactUsSection'>Contact Us</ScrollLink></li>
             </ul>
 
-            <button>Chiama Ora</button>
+            <button><a href='tel:+393394431038'>Chiama Ora</a></button>
           </div>
 
         </nav>
@@ -64,11 +67,11 @@ export default function RootLayout({
             <br></br>
             Siamo disponibili per eventi su prenotazione, riservare un tavolo o prenotare le vostre pizze da asporto.
           </p>
-          <button>Chiama Ora</button>
+          <button><a href='tel:+393394431038'>Chiama Ora</a></button>
 
           <ul>
             <li><a
-              href=''
+              href='https://www.instagram.com/pizzeria_okay/'
               target='_blank'
               rel="noreferrer"
             >
@@ -79,7 +82,7 @@ export default function RootLayout({
               </div>
             </a></li>
             <li><a
-              href=''
+              href='https://www.facebook.com/PizzeriaOkayVasto/'
               target='_blank'
               rel="noreferrer"
             >

@@ -39,14 +39,19 @@
   background-color: var(--darker-yellow-color);
   padding: 0.25rem 0.8rem 0.25rem 0.8rem;
   text-align: center;
-  border: 2px solid var(--darker-yellow-color);
   transition-duration: 0.2s;
   font-size: 0.85rem;
+  color: white;
 }
 
 .headerInsideDiv>button:hover {
-  background-color: transparent;
+  background-color: var(--dark-yellow-color);
 }
+
+.headerInsideDiv>button>a:hover {
+  color: white;
+}
+
 
 .logoImage {
   width: 4.5rem;
@@ -114,6 +119,10 @@
 
 .socialBox:hover {
   transform: scale(1.1);
+}
+
+.socialBox:active {
+  transform: scale(0.85);
 }
 
 .socialIcon {

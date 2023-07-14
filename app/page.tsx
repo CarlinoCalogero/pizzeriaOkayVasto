@@ -1,3 +1,4 @@
+import ScrollLink from '@/components/ScrollLink';
 import styles from './page.module.css'
 import { MenuTypeSnippet } from "@/components/MenuTypeSnippet"
 import menu from "@/content/menu.json"
@@ -16,8 +17,8 @@ export default function Home() {
         <h1>Pizzeria Okay</h1>
         <h3>Dal Lunedì alla Domenica, 18:00 - 23:00</h3>
         <div className={styles.homeDivButtonDiv}>
-          <button>Prenota Ora</button>
-          <button>Esplora il menù</button>
+          <button><a href='tel:+393394431038'>Prenota Ora</a></button>
+          <button><ScrollLink href='#menuSection'>Esplora il menù</ScrollLink></button>
         </div>
       </div>
 
