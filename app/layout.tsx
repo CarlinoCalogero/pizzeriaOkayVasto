@@ -26,6 +26,12 @@ export default function RootLayout({
 
           <div className={styles.headerInsideDiv}>
 
+            <input className={styles.hamburgerMenuCheckBox} type="checkbox" />
+
+            <span className={styles.spanElementOne}></span>
+            <span className={styles.spanElementTwo}></span>
+            <span className={styles.spanElementThree}></span>
+
             <Image
               src={logo}
               className={styles.logoImage}
@@ -33,12 +39,13 @@ export default function RootLayout({
               loading='lazy'
             />
 
-            <ul>
+            <ul className={styles.menu}>
               <li><a>Home</a></li>
               <li><a>Menu</a></li>
               <li><a>About Us</a></li>
               <li><a>Contact Us</a></li>
             </ul>
+
             <button>Chiama Ora</button>
           </div>
 

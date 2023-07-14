@@ -4,6 +4,16 @@
   height: 0;
 }
 
+.headerInsideDiv a {
+  transition: color 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.headerInsideDiv a:hover {
+  color: var(--yellow-color)
+}
+
 .headerInsideDiv {
   display: flex;
   flex-direction: row;
@@ -16,7 +26,7 @@
   box-shadow: inset 0 0 0 2000px #07041546;
 }
 
-.headerInsideDiv>ul {
+.menu {
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -111,12 +121,17 @@
   height: 2rem;
 }
 
+/* Hamburger Menu */
+.headerInsideDiv>span {
+  display: none;
+}
+
+.hamburgerMenuCheckBox {
+  display: none;
+}
+
 /* Responsive layout */
 @media (max-width: 800px) {
-
-  .header {
-    display: none;
-  }
 
   .footer {
     min-height: 50vh;
@@ -150,6 +165,126 @@
   .socialIcon {
     width: 1rem;
     height: 1rem;
+  }
+
+  /* Hamburger Menu */
+
+  .logoImage,
+  .headerInsideDiv>button {
+    display: none;
+  }
+
+  .headerInsideDiv {
+    display: block;
+    position: absolute;
+    right: 1rem;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .hamburgerMenuCheckBox {
+    display: block;
+    right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    cursor: pointer;
+    /* hide this */
+    opacity: 0;
+    /* and place it over the hamburger */
+    z-index: 2;
+    -webkit-touch-callout: none;
+  }
+
+  .headerInsideDiv span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  .spanElementOne {
+    transform-origin: 0% 0%;
+  }
+
+  .spanElementTwo {
+    transform-origin: 0% 100%;
+  }
+
+  /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+  .hamburgerMenuCheckBox:checked~.spanElementOne {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+    background: #232323;
+  }
+
+  /*
+ * But let's hide the middle one.
+ */
+  .hamburgerMenuCheckBox:checked~.spanElementTwo {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+ * Ohyeah and the last one should go the other direction
+ */
+  .hamburgerMenuCheckBox:checked~.spanElementThree {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -10px);
+    background: #232323;
+  }
+
+  /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    right: -1rem;
+    width: 100vw;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  .menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  /*
+ * And let's slide it in from the left
+ */
+  .hamburgerMenuCheckBox:checked~ul {
+    transform: none;
   }
 
 }
