@@ -8,15 +8,16 @@
   --space-between-sections: 10rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   background: #070415;
   color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+
+  :root {
+    --space-between-sections: 2rem;
+  }
+
 }

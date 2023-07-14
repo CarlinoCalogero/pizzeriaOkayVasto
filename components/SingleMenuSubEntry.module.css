@@ -22,3 +22,21 @@
 .nameAndPrice>h2 {
     font-size: 1.5rem;
 }
+
+/* Responsive layout */
+@media (max-width: 800px) {
+
+    .outerDiv>p,
+    .nameAndPrice>p {
+        font-size: 0.8rem;
+    }
+
+    .nameAndPrice {
+        margin-bottom: 0;
+    }
+
+    .nameAndPrice>h2 {
+        font-size: 0.8rem;
+    }
+
+}
