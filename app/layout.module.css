@@ -214,6 +214,7 @@
     /* and place it over the hamburger */
     z-index: 2;
     -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent
   }
 
   .headerInsideDiv span {
@@ -247,7 +248,7 @@
  */
   .hamburgerMenuCheckBox:checked~.spanElementOne {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, 2px);
+    transform: rotate(45deg) translate(-1px, 1px);
   }
 
   /*
@@ -263,7 +264,7 @@
  */
   .hamburgerMenuCheckBox:checked~.spanElementThree {
     opacity: 1;
-    transform: rotate(-45deg) translate(0, -10px);
+    transform: rotate(-45deg) translate(0, -13px);
   }
 
   /*
