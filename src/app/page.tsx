@@ -1,8 +1,8 @@
-import ScrollLink from '@/components/ScrollLink';
+import ScrollLink from '../components/ScrollLink';
 import styles from './page.module.css'
-import { MenuTypeSnippet } from "@/components/MenuTypeSnippet"
-import menu from "@/content/menu.json"
-import { MenuEntry } from '@/types/MenuEntry';
+import { MenuTypeSnippet } from "../components/MenuTypeSnippet"
+import menu from "../content/menu.json"
+import { MenuEntry } from '../types/MenuEntry';
 import Iframe from 'react-iframe';
 
 export default function Home() {

@@ -9,7 +9,7 @@
 
 .menuTypeDiv {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: var(--small-bottom-margin);
     /*top right bottom left*/
     padding: 0 15vw 0 15vw;
 }
@@ -21,7 +21,7 @@
     justify-content: center;
     width: 100%;
 
-    min-height: 100vh;
+    min-height: var(--section-min-height);
     background-image: url("../content/cover.jpg");
     /* Center the image */
     background-position: center;
@@ -35,22 +35,22 @@
 }
 
 .homeDiv>h1 {
-    font-weight: 800;
-    font-family: 'Abril Fatface', display;
-    font-size: 7rem;
+    font-weight: var(--titles-font-weight);
+    font-family: var(--font-family-1);
+    font-size: var(--titles-font-size);
     margin-top: -2.5rem;
 }
 
 .homeDiv>h2 {
     color: var(--darker-yellow-color);
-    font-family: 'Abril Fatface', display;
-    font-weight: 600;
-    font-size: 2rem;
+    font-family: var(--font-family-1);
+    font-weight: var(--subtitles-font-weight);
+    font-size: var(--subtitles-font-size);
 }
 
 .homeDiv>h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
+    font-family: var(--font-family-2);
+    font-size: var(--subsubtitles-font-size);
 }
 
 .homeDivButtonDiv {
@@ -61,7 +61,7 @@
 }
 
 .homeDivButtonDiv>button {
-    border-radius: 1.5rem;
+    border-radius: var(--button-border-radius);
     background-color: var(--darker-yellow-color);
     padding: 0.5rem 2rem 0.5rem 2rem;
     text-align: center;
@@ -129,7 +129,6 @@
 @media (max-width: 800px) {
 
     .menuTypeDiv {
-        margin-bottom: 5rem;
         /*top right bottom left*/
         padding: 0 10vw 0 10vw;
     }
@@ -140,7 +139,6 @@
     }
 
     .homeDiv>h1 {
-        font-size: 6rem;
         margin: 2rem 0 2rem 0;
         line-break: auto;
         text-align: center;
@@ -148,7 +146,6 @@
     }
 
     .homeDiv>h2 {
-        font-size: 2rem;
         line-break: auto;
         text-align: center;
         line-height: 1;
@@ -156,7 +153,6 @@
     }
 
     .homeDiv>h3 {
-        font-size: 1.7rem;
         line-break: auto;
         text-align: center;
         line-height: 1;
@@ -169,7 +165,6 @@
     }
 
     .homeDivButtonDiv>button {
-        border-radius: 1.5rem;
         font-size: 1.5rem;
         padding: 0.5rem 2rem 0.5rem 2rem;
         border: 1px solid var(--darker-yellow-color);

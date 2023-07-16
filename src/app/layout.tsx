@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import logo from '../content/logo.png'
 import { FaInstagram, FaFacebook } from 'react-icons/fa'
-import ScrollLink from '@/components/ScrollLink'
+import ScrollLink from '../components/ScrollLink'
 
 const inter = Inter({ subsets: ['latin'] })
 

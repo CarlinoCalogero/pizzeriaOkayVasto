@@ -1,4 +1,4 @@
-import { CategorySubEntry } from '@/types/CategorySubEntry'
+import { CategorySubEntry } from '../types/CategorySubEntry'
 import styles from './SingleMenuSubEntry.module.css'
 
 interface SingleMenuSubEntryProps {

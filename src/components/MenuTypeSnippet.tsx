@@ -1,4 +1,4 @@
-import { MenuEntry } from '@/types/MenuEntry';
+import { MenuEntry } from '../types/MenuEntry';
 import styles from './MenuTypeSnippet.module.css'
 import { SingleMenuEntry } from "./SingleMenuEntry"
 import { FaPizzaSlice } from "react-icons/fa";
