@@ -3,9 +3,8 @@ import './globals.css'
 import styles from './layout.module.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import logo from '@/content/logo.png'
+import logo from '../content/logo.png'
 import { FaInstagram, FaFacebook } from 'react-icons/fa'
-import Link from 'next/link'
 import ScrollLink from '@/components/ScrollLink'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,14 +33,17 @@ export default function RootLayout({
             <span className={styles.spanElementTwo}></span>
             <span className={styles.spanElementThree}></span>
 
-            <ScrollLink href='#homeSection'>
-              <Image
-                src={logo}
-                className={styles.logoImage}
-                alt="Logo"
-                loading='lazy'
-              />
-            </ScrollLink>
+            {
+              logo &&
+              <ScrollLink href='#homeSection'>
+                <Image
+                  src={logo}
+                  className={styles.logoImage}
+                  alt="Logo"
+                />
+              </ScrollLink>
+            }
+
 
 
             <ul className={styles.menu}>
