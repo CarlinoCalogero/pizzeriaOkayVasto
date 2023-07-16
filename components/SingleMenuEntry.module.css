@@ -36,7 +36,7 @@
 @media (max-width: 800px) {
 
     .outerDiv>p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .nameAndPrice {
@@ -45,13 +45,17 @@
 
     .nameAndPrice>h3,
     .nameAndPrice>h2 {
-        font-size: 2.25rem;
+        font-size: 2rem;
         line-break: auto;
         line-height: 1;
     }
 
     .nameAndPrice>h3 {
-       margin-right: 2rem;
+        margin-right: 2rem;
+    }
+
+    .line {
+        border-top: 2px solid rgba(165, 165, 165, 0.6);
     }
 
     .singleMenuSubEntryDiv {

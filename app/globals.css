@@ -22,7 +22,7 @@ body {
 @media (max-width: 800px) {
 
   :root {
-    --space-between-sections: 2rem;
+    --button-font-size: 2rem;
   }
 
 }
