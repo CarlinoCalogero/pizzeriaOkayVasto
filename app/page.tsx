@@ -17,8 +17,8 @@ export default function Home() {
         <h1>Pizzeria Okay</h1>
         <h3>Dal Lunedì alla Domenica, 18:00 - 23:00</h3>
         <div className={styles.homeDivButtonDiv}>
-          <button><a href='tel:+393394431038'>Prenota Ora</a></button>
-          <button><ScrollLink href='#menuSection'>Esplora il menù</ScrollLink></button>
+          <button><a href='tel:+393394431038'>Prenota</a></button>
+          <button><ScrollLink href='#menuSection'>Menù</ScrollLink></button>
         </div>
       </div>
 

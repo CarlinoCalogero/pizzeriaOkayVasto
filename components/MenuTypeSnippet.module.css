@@ -40,25 +40,23 @@
 @media (max-width: 800px) {
 
     .outerDiv>h1 {
-        font-size: 1.5rem;
-        margin-bottom: -0.2rem;
+        font-size: 2.5rem;
+        margin-bottom: 0;
+        line-break: auto;
+        text-align: center;
+        line-height: 1;
     }
 
     .innerDiv {
         margin-bottom: 1rem;
     }
 
-    .singleMenuEntry {
-        margin-bottom: 0.5rem;
-    }
-
     .line {
-        width: 4rem;
-        margin-bottom: 0.35rem;
+        width: 5rem;
     }
 
     .pizzaSlice {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
 }
