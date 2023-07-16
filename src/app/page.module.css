@@ -30,7 +30,7 @@
     /* Resize the background image to cover the entire container */
     background-size: cover;
     /* Color overlay */
-    box-shadow: inset 0 0 0 2000px #070415c9;
+    box-shadow: inset 0 0 0 2000px var(--picture-overlay-color);
     background-attachment: fixed;
 }
 

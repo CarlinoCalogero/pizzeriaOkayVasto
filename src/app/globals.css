@@ -21,8 +21,17 @@
   --section-title2-font-size: 1.5rem;
   --section-subtitle-font-size: 1.2rem;
   --section-text-font-size: 1rem;
+  --menu-font-size: 0.85rem;
+  --menu-font-weight: 500;
   --button-border-radius: 1.5rem;
   --button-font-size: 1rem;
+  --menu-button-font-size: 0.85rem;
+  --menu-logo-width: 4.5rem;
+  --menu-logo-height: 1.8rem;
+  /*width and height must have the same size. It has to be a square*/
+  --social-icon-size: 2rem;
+  --footer-title-font-size: 4.5rem;
+  --picture-overlay-color: #070415c9;
 }
 
 body {
@@ -46,6 +55,11 @@ body {
     --section-title2-font-size: 2rem;
     --section-subtitle-font-size: 3rem;
     --section-text-font-size: 1.5rem;
+    --menu-font-size: 1.5rem;
+    /*width and height must have the same size. It has to be a square*/
+    --social-icon-size: 3rem;
+    --footer-title-font-size: 5.5rem;
+    --hamburger-menu-background: #070415;
     --button-font-size: 1.5rem;
   }
 
