@@ -6,6 +6,7 @@
   --yellow-color: #E0B477;
   --dark-yellow-color: #db860f;
   --darker-yellow-color: #db9423;
+  --light-gray-color: rgba(165, 165, 165, 0.6);
   --space-between-sections: 10rem;
   --small-top-margin: 2rem;
   --small-bottom-margin: 2rem;
@@ -13,6 +14,7 @@
   --titles-font-weight: 800;
   --font-family-1: 'Abril Fatface', display;
   --font-family-2: 'Poppins', sans-serif;
+  --font-family-3: 'Adamina', serif;
   --titles-font-size: 7rem;
   --subtitles-font-size: 2rem;
   --subtitles-font-weight: 600;
@@ -32,6 +34,13 @@
   --social-icon-size: 2rem;
   --footer-title-font-size: 4.5rem;
   --picture-overlay-color: #070415c9;
+
+  --category-title-font-size: 3rem;
+  --menu-subItem-font-size: 1rem;
+  --menu-ingredient-font-size: 1rem;
+  --name-and-price-font-size: 1.5rem;
+  --line-width: 8rem;
+  --incons-size: 1rem;
 }
 
 body {
@@ -61,6 +70,11 @@ body {
     --footer-title-font-size: 5.5rem;
     --hamburger-menu-background: #070415;
     --button-font-size: 1.5rem;
+
+    --category-title-font-size: 4rem;
+    --menu-subItem-font-size: 1.5rem;
+    --name-and-price-font-size: 2rem;
+    --incons-size: 1.5rem;
   }
 
 }

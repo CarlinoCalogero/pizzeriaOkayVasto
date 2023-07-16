@@ -1,13 +1,13 @@
 .outerDiv {
     display: flex;
     flex-direction: column;
-    font-family: 'Adamina', serif;
+    font-family: var(--font-family-3);
     width: inherit;
 }
 
 .outerDiv>p {
-    color: rgba(165, 165, 165, 0.6);
-    font-size: 1rem;
+    color: var(--light-gray-color);
+    font-size: var(--menu-ingredient-font-size);
 }
 
 .nameAndPrice {
@@ -19,12 +19,11 @@
 
 .nameAndPrice>h3,
 .nameAndPrice>h2 {
-    font-size: 1.5rem;
+    font-size: var(--name-and-price-font-size);
 }
 
-
 .line {
-    border-top: 1px solid rgba(165, 165, 165, 0.6);
+    border-top: 1px solid var(--light-gray-color);
 }
 
 .singleMenuSubEntryDiv {
@@ -35,17 +34,12 @@
 /* Responsive layout */
 @media (max-width: 800px) {
 
-    .outerDiv>p {
-        font-size: 1rem;
-    }
-
     .nameAndPrice {
         margin-bottom: 0;
     }
 
     .nameAndPrice>h3,
     .nameAndPrice>h2 {
-        font-size: 2rem;
         line-break: auto;
         line-height: 1;
     }
@@ -55,7 +49,7 @@
     }
 
     .line {
-        border-top: 2px solid rgba(165, 165, 165, 0.6);
+        border-top: 2px solid var(--light-gray-color);
     }
 
     .singleMenuSubEntryDiv {

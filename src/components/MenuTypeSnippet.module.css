@@ -7,10 +7,10 @@
 }
 
 .outerDiv>h1 {
-    color: #E0B477;
-    font-size: 3rem;
+    color: var(--yellow-color);
+    font-size: var(--category-title-font-size);
     margin-bottom: -0.5rem;
-    font-family: 'Adamina', serif;
+    font-family: var(--font-family-3);
 }
 
 .innerDiv {
@@ -26,21 +26,20 @@
 }
 
 .line {
-    width: 8rem;
+    width: var(--line-width);
     margin-bottom: 0.5rem;
-    border-bottom: 1px solid #E0B477;
+    border-bottom: 1px solid var(--yellow-color);
 }
 
 .pizzaSlice {
-    color: #E0B477;
-    font-size: 1rem;
+    color: var(--yellow-color);
+    font-size: var(--incons-size);
 }
 
 /* Responsive layout */
 @media (max-width: 800px) {
 
     .outerDiv>h1 {
-        font-size: 4rem;
         margin-bottom: 0;
         line-break: auto;
         text-align: center;
@@ -53,10 +52,6 @@
 
     .line {
         margin-bottom: 0.75rem;
-    }
-
-    .pizzaSlice {
-        font-size: 1.5rem;
     }
 
     .singleMenuEntry {
