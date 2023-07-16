@@ -7,6 +7,7 @@
   --dark-yellow-color: #db860f;
   --darker-yellow-color: #db9423;
   --space-between-sections: 10rem;
+  --small-top-margin: 2rem;
   --small-bottom-margin: 2rem;
   --section-min-height: 100vh;
   --titles-font-weight: 800;
@@ -16,8 +17,12 @@
   --subtitles-font-size: 2rem;
   --subtitles-font-weight: 600;
   --subsubtitles-font-size: 1.3rem;
+  --section-title-font-size: 3.5rem;
+  --section-title2-font-size: 1.5rem;
+  --section-subtitle-font-size: 1.2rem;
+  --section-text-font-size: 1rem;
   --button-border-radius: 1.5rem;
-  --button-font-size: 1.5rem;
+  --button-font-size: 1rem;
 }
 
 body {
@@ -33,9 +38,15 @@ body {
 @media (max-width: 800px) {
 
   :root {
+    --small-top-margin: 4rem;
     --small-bottom-margin: 5rem;
     --titles-font-size: 6rem;
     --subsubtitles-font-size: 1.7rem;
+    --section-title-font-size: 5rem;
+    --section-title2-font-size: 2rem;
+    --section-subtitle-font-size: 3rem;
+    --section-text-font-size: 1.5rem;
+    --button-font-size: 1.5rem;
   }
 
 }
