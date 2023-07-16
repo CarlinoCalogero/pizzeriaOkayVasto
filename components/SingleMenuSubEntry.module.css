@@ -28,15 +28,21 @@
 
     .outerDiv>p,
     .nameAndPrice>p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .nameAndPrice {
         margin-bottom: 0;
     }
 
+    .nameAndPrice>p {
+        margin-right: 1rem;
+    }
+
     .nameAndPrice>h2 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        line-break: auto;
+        line-height: 1;
     }
 
 }

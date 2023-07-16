@@ -60,7 +60,7 @@ export default function RootLayout({
 
         <div className={styles.footer}>
 
-          <h1>Prenota Ora</h1>
+          <h1>Prenota Subito</h1>
           <p>Inviaci un messaggio!
             <br></br>
             Siamo raggiungibili anche telefonicamente e tramite WhatsApp.
