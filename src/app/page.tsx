@@ -3,7 +3,6 @@ import styles from './page.module.css'
 import { MenuTypeSnippet } from "../components/MenuTypeSnippet"
 import menu from "../content/menu.json"
 import { MenuEntry } from '../types/MenuEntry';
-import Iframe from 'react-iframe';
 
 export default function Home() {
 
@@ -25,14 +24,14 @@ export default function Home() {
       <span id="menuSection"></span>
       {menu.map(menuEntry => <div key={menuEntry.categoryName} className={styles.menuTypeDiv}> <MenuTypeSnippet menuEntry={menuEntry} /></div>)}
 
-      <Iframe
+      <iframe
         id="aboutUsSection"
         className={styles.googleMap}
-        url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.8972815836028!2d14.70594851090688!3d42.10967067109728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1330dc5454ddaf95%3A0x9722a68e12422ddc!2sPizzeria%20Okay!5e0!3m2!1sit!2sit!4v1689521544789!5m2!1sit!2sit"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.8972815836028!2d14.70594851090688!3d42.10967067109728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1330dc5454ddaf95%3A0x9722a68e12422ddc!2sPizzeria%20Okay!5e0!3m2!1sit!2sit!4v1689521544789!5m2!1sit!2sit"
         loading='lazy'
         allowFullScreen={false}
-        referrerpolicy='no-referrer-when-downgrade'
-      />
+        referrerPolicy='no-referrer-when-downgrade'
+      > </iframe>
 
       <div id="contactUsSection" className={styles.aboutUsDiv}>
         <h1>Orari di Apertura</h1>
