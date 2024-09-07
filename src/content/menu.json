@@ -59,7 +59,7 @@
                 "name": "Alici e peperoni",
                 "description": "Pomodoro, mozzarella, alici, peperoni",
                 "subEntries": null,
-                "price": "€8.50"
+                "price": "€9.00"
             },
             {
                 "name": "Würstel",
@@ -88,7 +88,7 @@
                 "name": "Rucola",
                 "description": "Mozzarella, rucola, prosciutto crudo, grana",
                 "subEntries": null,
-                "price": "€8.50"
+                "price": "€9.00"
             },
             {
                 "name": "4 Formaggi",
@@ -112,7 +112,7 @@
                 "name": "Radicchio",
                 "description": "Mozzarella, radicchio, provola affumicata a fine cottura",
                 "subEntries": null,
-                "price": "€8.00"
+                "price": "€8.50"
             },
             {
                 "name": "Zingara",
@@ -124,7 +124,7 @@
                 "name": "Tedesca",
                 "description": "Mozzarella, würstel, patatine fritte",
                 "subEntries": null,
-                "price": "€8.00"
+                "price": "€8.50"
             },
             {
                 "name": "Tonno e Cipolla",
@@ -136,7 +136,7 @@
                 "name": "Vegetariana",
                 "description": "Mozzarella, zucchine grigliate, melanzane grigliate, pomodorino pachino",
                 "subEntries": null,
-                "price": "€8.00"
+                "price": "€8.50"
             },
             {
                 "name": "Salsiccia e patate",
@@ -148,7 +148,7 @@
                 "name": "Boscaiola",
                 "description": "Mozzarella, funghi, salsiccia rossa fresca locale",
                 "subEntries": null,
-                "price": "€8.00"
+                "price": "€8.50"
             }
         ]
     },
@@ -218,34 +218,34 @@
                 "name": "Curcuma",
                 "description": "Farina di curcuma, mozzarella di bufala, pomodorino pachino",
                 "subEntries": null,
-                "price": "€9.50"
+                "price": "€10.00"
             }
         ]
     },
     {
-        "categoryName": "Pinse Romane",
+        "categoryName": "Pinse",
         "entries": [
             {
-                "name": "Boscaiola alla Soia",
-                "description": "Mix farina di soia, mozzarella, funghi, salsiccia rossa fresca locale",
+                "name": "Boscaiola Pinsa",
+                "description": "Mix di farina, mozzarella, funghi, salsiccia rossa fresca locale",
                 "subEntries": null,
                 "price": "€10.00"
             },
             {
-                "name": "Tartufata alla Soia",
-                "description": "Mix farina di soia, mozzarella, crema tartufata, funghi",
+                "name": "Tartufata Pinsa",
+                "description": "Mix di farina, mozzarella, crema tartufata, funghi",
                 "subEntries": null,
                 "price": "€10.50"
             },
             {
-                "name": "Bresaola alla Soia",
-                "description": "Mix farina di soia, mozzarella, bresaola, rucola, grana",
+                "name": "Bresaola Pinsa",
+                "description": "Mix di farina, mozzarella, bresaola, rucola, grana",
                 "subEntries": null,
                 "price": "€11.00"
             },
             {
-                "name": "Pachino alla Soia",
-                "description": "Mix farina di soia, mozzarella, pomodorino pachino, rucola, grana",
+                "name": "Pachino Pinsa",
+                "description": "Mix di farina, mozzarella, pomodorino pachino, rucola, grana",
                 "subEntries": null,
                 "price": "€10.00"
             }
@@ -329,6 +329,27 @@
                 "description": "6 pezzi",
                 "subEntries": null,
                 "price": "€3.00"
+            },
+            {
+                "name": "Arancino al Ragù",
+                "description": "130g",
+                "subEntries": null,
+                "price": "€2.50"
+            },
+            {
+                "name": "Supplì",
+                "description": null,
+                "subEntries": [
+                    {
+                        "name": "Pomodoro e mozzarella",
+                        "price": null
+                    },
+                    {
+                        "name": "Cacio e pepe",
+                        "price": null
+                    }
+                ],
+                "price": "€2.00"
             }
         ]
     },
@@ -336,8 +357,8 @@
         "categoryName": "Desserts",
         "entries": [
             {
-                "name": "Gelato Tartufo",
-                "description": "Bianco o Nero",
+                "name": "Sorbetto al limore",
+                "description": null,
                 "subEntries": null,
                 "price": "€3.50"
             }
@@ -362,43 +383,67 @@
                 "name": "Lattina",
                 "description": "Coca Cola / Thé limone / Thé pesca / Fanta / Lemonsoda / Sprite",
                 "subEntries": null,
-                "price": "€2.00"
+                "price": "€2.50"
             },
             {
-                "name": "DAB - 0.5 litri",
-                "description": "Birra Bionda Non Filtrata Artigianale",
+                "name": "Stella Artois - 66cl",
+                "description": "Bionda",
                 "subEntries": null,
-                "price": "€4.00"
+                "price": "€3.50"
             },
             {
-                "name": "Menabrea - 33cl",
-                "description": "Birra Rossa",
+                "name": "Poretti 4 Luppoli - 66cl",
+                "description": "Bionda",
+                "subEntries": null,
+                "price": "€3.50"
+            },
+            {
+                "name": "Forst - 66cl",
+                "description": "Bionda",
                 "subEntries": null,
                 "price": "€3.50"
             },
             {
                 "name": "Menabrea - 66cl",
-                "description": "Birra Bionda",
+                "description": "Bionda",
                 "subEntries": null,
-                "price": "€4.50"
+                "price": "€4.00"
+            },
+            {
+                "name": "DAB - 50cl",
+                "description": "Bionda non filtrata",
+                "subEntries": null,
+                "price": "€3.50"
+            },
+            {
+                "name": "Forst - 33cl",
+                "description": "Bionda",
+                "subEntries": null,
+                "price": "€3.00"
             },
             {
                 "name": "DAB - 33cl",
-                "description": "Birra Bionda",
+                "description": "Bionda",
                 "subEntries": null,
-                "price": "€3.50"
+                "price": "€3.00"
             },
             {
                 "name": "Hoegaarden - 33cl",
-                "description": "Birra Bianca",
+                "description": "Bianca",
                 "subEntries": null,
-                "price": "€3.50"
+                "price": "€3.00"
             },
             {
-                "name": "Birra Bionda - 66cl",
-                "description": "Stella Artois / Poretti 4 Luppoli",
+                "name": "Menabrea - 33cl",
+                "description": "Rossa",
                 "subEntries": null,
-                "price": "€3.50"
+                "price": "€3.00"
+            },
+            {
+                "name": "Birra alla spina - 0.3",
+                "description": "Bionda",
+                "subEntries": null,
+                "price": "€3.00"
             }
         ]
     }
