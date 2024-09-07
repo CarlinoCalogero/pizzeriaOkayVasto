@@ -11,9 +11,11 @@ export function SingleMenuSubEntry({ categorySubEntry }: SingleMenuSubEntryProps
 
             <div className={styles.nameAndPrice}>
                 <p>{categorySubEntry.name}</p>
-                <h2>{categorySubEntry.price}</h2>
+                {categorySubEntry.price &&
+                    <h2>{categorySubEntry.price}</h2>
+                }
             </div>
 
-        </div>
+        </div >
     )
 }

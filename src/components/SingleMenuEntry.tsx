@@ -12,7 +12,10 @@ export function SingleMenuEntry({ categoryEntry }: SingleMenuEntryProps) {
 
             <div className={styles.nameAndPrice}>
                 <h3>{categoryEntry.name}</h3>
-                <h2>{categoryEntry.price}</h2>
+                {
+                    categoryEntry.price &&
+                    <h2>{categoryEntry.price}</h2>
+                }
             </div>
             <div className={styles.line}></div>
 
