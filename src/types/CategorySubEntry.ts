@@ -1,4 +1,4 @@
 export type CategorySubEntry = {
     name: string,
-    price: string
+    price: null | string
 }
