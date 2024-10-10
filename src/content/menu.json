@@ -33,7 +33,7 @@
             },
             {
                 "name": "Ventricina",
-                "description": "Pomodoro, mozzarella, ventricina piccantina",
+                "description": "Pomodoro, mozzarella, ventricina leggermente piccante",
                 "subEntries": null,
                 "price": "€8.00"
             },
@@ -41,7 +41,7 @@
                 "name": "Capricciosa",
                 "description": "Pomodoro, mozzarella, olive nere, prosciutto cotto, carciofini, funghi",
                 "subEntries": null,
-                "price": "€8.50"
+                "price": "€9.00"
             },
             {
                 "name": "Napoletana",
@@ -76,7 +76,7 @@
                 "name": "Prosciutto e Funghi",
                 "description": "Mozzarella, prosciutto cotto, funghi",
                 "subEntries": null,
-                "price": "€8.50"
+                "price": "€9.00"
             },
             {
                 "name": "Crostino",
@@ -118,7 +118,7 @@
                 "name": "Zingara",
                 "description": "Mozzarella, capperi, funghi, peperoni, olive",
                 "subEntries": null,
-                "price": "€8.00"
+                "price": "€8.50"
             },
             {
                 "name": "Tedesca",
@@ -159,7 +159,7 @@
                 "name": "Porcini",
                 "description": "Mozzarella, funghi porcini, rucola, grana",
                 "subEntries": null,
-                "price": "€9.00"
+                "price": "€9.50"
             },
             {
                 "name": "Rape e Salsiccia",
@@ -183,7 +183,7 @@
                 "name": "Bufalina",
                 "description": "Pomodoro, mozzarella di bufala",
                 "subEntries": null,
-                "price": "€9.00"
+                "price": "€9.50"
             },
             {
                 "name": "Bresaola",
@@ -201,7 +201,7 @@
                 "name": "Baccalà*",
                 "description": "Baccalà, peperoni",
                 "subEntries": null,
-                "price": "€10.50"
+                "price": "€11.00"
             }
         ]
     },
@@ -210,7 +210,7 @@
         "entries": [
             {
                 "name": "Canapa",
-                "description": "Farina di canapa sativa, mozzarella, ventricina piccantina, carciofini, rucola, grana",
+                "description": "Farina di canapa sativa, mozzarella, ventricina leggermente piccante, carciofini, rucola, grana",
                 "subEntries": null,
                 "price": "€10.50"
             },
@@ -268,7 +268,7 @@
             },
             {
                 "name": "Tipo 2",
-                "description": "Pomodoro, mozzarella, ventricina piccantina, olive nere, gorgonzola",
+                "description": "Pomodoro, mozzarella, ventricina leggermente piccante, olive nere, gorgonzola",
                 "subEntries": null,
                 "price": "€9.00"
             },
@@ -381,7 +381,7 @@
             },
             {
                 "name": "Lattina",
-                "description": "Coca Cola / Thé limone / Thé pesca / Fanta / Lemonsoda / Sprite",
+                "description": "Coca Cola / Coca Cola Zero / Thé limone / Thé pesca / Fanta / Lemonsoda / Sprite",
                 "subEntries": null,
                 "price": "€2.50"
             },
